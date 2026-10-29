@@ -3,13 +3,17 @@ langchain
 langchain-core
 langchain-text-splitters
 langchain-experimental
-
+langchain-core
+langchain-openai
+langgraph
+typing-extensions
 # OpenAI integration (for models and embeddings)
 langchain-openai
 python-dotenv
 
 # Token counting for text splitters
 tiktoken
+numpy
 
 # kernel for jupyter noteboks
 ipykernel
