@@ -1,17 +1,23 @@
 # Core LangChain packages
 langchain
 langchain-core
+langchain-community
 langchain-text-splitters
 langchain-experimental
-langchain-core
+langchain-chroma
+langchain-classic
 langchain-openai
 langgraph
-typing-extensions
-# OpenAI integration (for models and embeddings)
-langchain-openai
 python-dotenv
+chromadb
+langfuse
+dagshub
+guardrails-ai
+fastapi
 
-# Token counting for text splitters
+typing-extensions
+
+# OpenAI integration (for models and embeddings)
 tiktoken
 numpy
 
