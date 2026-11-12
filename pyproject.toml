@@ -26,6 +26,7 @@ dependencies = [
     "langgraph>=1.2.20",
     "litellm>=1.108.1",
     "numpy>=2.5.4",
+    "pypdf>=6.8.0",
     "python-dotenv>=1.2.4",
     "termcolor>=3.3.0",
     "tiktoken>=0.14.0",
@@ -38,3 +39,6 @@ dependencies = [
 [build-system]
 requires = ["uv_build>=0.12.13,<0.13.0"]
 build-backend = "uv_build"
+
+[tool.uv]
+package = false
